@@ -48,3 +48,11 @@ head(cars)
 ## 6     9   10
 ```
 
+## Slide 4
+
+
+```r
+hist(cars$speed)
+```
+
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)

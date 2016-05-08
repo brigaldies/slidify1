@@ -34,3 +34,8 @@ plot(cars$dist, cars$speed)
 head(cars)
 ```
 
+## Slide 4
+
+```{r}
+hist(cars$speed)
+```
