@@ -13,8 +13,7 @@
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
-
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
   
   <!-- Grab CDN jQuery, fall back to local if offline -->
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
@@ -42,11 +41,13 @@
 
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>Read-And-Delete</h2>
-  </hgroup>
   <article data-timings="">
-    <ol>
+    <pre><code class="r">require(rCharts)
+</code></pre>
+
+<h2>Read-And-Delete</h2>
+
+<ol>
 <li>Edit YAML front matter</li>
 <li>Write using R Markdown</li>
 <li>Use an empty line followed by three dashes to separate slides!</li>
@@ -58,7 +59,7 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>Cars Distance vs. Speed Plot</h2>
   </hgroup>
   <article data-timings="">
     <pre><code class="r">data(cars)
@@ -73,7 +74,7 @@ plot(cars$dist, cars$speed)
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>Cars Data</h2>
   </hgroup>
   <article data-timings="">
     <pre><code class="r">head(cars)
@@ -94,13 +95,24 @@ plot(cars$dist, cars$speed)
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 4</h2>
+    <h2>Cars Speed Histogram</h2>
   </hgroup>
   <article data-timings="">
     <pre><code class="r">hist(cars$speed)
 </code></pre>
 
 <p><img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>rChart 1</h2>
+  </hgroup>
+  <article data-timings="">
+    <iframe src="n1.html" width=100%, height=600></iframe>
 
   </article>
   <!-- Presenter Notes -->
@@ -119,32 +131,38 @@ plot(cars$dist, cars$speed)
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='NA'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='Cars Distance vs. Speed Plot'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='Cars Data'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='Cars Speed Histogram'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='NA'>
+        data-slide=5 title='rChart 1'>
          5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='NA'>
+         6
       </a>
     </li>
   </ul>

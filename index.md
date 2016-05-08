@@ -11,6 +11,11 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+
+```r
+require(rCharts)
+```
+
 ## Read-And-Delete
 
 1. Edit YAML front matter
@@ -19,7 +24,7 @@ knit        : slidify::knit2slides
 
 --- .class #id 
 
-## Slide 2
+## Cars Distance vs. Speed Plot
 
 
 ```r
@@ -31,7 +36,7 @@ plot(cars$dist, cars$speed)
 
 --- .class #id 
 
-## Slide 3
+## Cars Data
 
 
 ```r
@@ -50,7 +55,7 @@ head(cars)
 
 --- .class #id 
 
-## Slide 4
+## Cars Speed Histogram
 
 
 ```r
@@ -60,3 +65,9 @@ hist(cars$speed)
 ![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)
 
 --- .class #id 
+
+## rChart 1
+
+<iframe src="n1.html" width=100%, height=600></iframe>
+
+--- .class #id
