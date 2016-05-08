@@ -34,8 +34,12 @@ plot(cars$dist, cars$speed)
 head(cars)
 ```
 
+--- .class #id 
+
 ## Slide 4
 
 ```{r}
 hist(cars$speed)
 ```
+
+--- .class #id 

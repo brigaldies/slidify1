@@ -48,6 +48,8 @@ head(cars)
 ## 6     9   10
 ```
 
+--- .class #id 
+
 ## Slide 4
 
 
@@ -56,3 +58,5 @@ hist(cars$speed)
 ```
 
 ![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)
+
+--- .class #id 
