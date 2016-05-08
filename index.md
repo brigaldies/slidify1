@@ -28,3 +28,23 @@ plot(cars$dist, cars$speed)
 ```
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+
+--- .class #id 
+
+## Slide 3
+
+
+```r
+head(cars)
+```
+
+```
+##   speed dist
+## 1     4    2
+## 2     4   10
+## 3     7    4
+## 4     7   22
+## 5     8   16
+## 6     9   10
+```
+

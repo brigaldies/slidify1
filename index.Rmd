@@ -25,3 +25,12 @@ knit        : slidify::knit2slides
 data(cars)
 plot(cars$dist, cars$speed)
 ```
+
+--- .class #id 
+
+## Slide 3
+
+```{r}
+head(cars)
+```
+
